@@ -405,6 +405,20 @@
     <Compile Include="command_modules\azure-cli-lab\azure\cli\command_modules\lab\__init__.py" />
     <Compile Include="command_modules\azure-cli-lab\azure_bdist_wheel.py" />
     <Compile Include="command_modules\azure-cli-lab\setup.py" />
+    <Compile Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\commands.py" />
+    <Compile Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\custom.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\_client_factory.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\_help.py" />
+    <Compile Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\_params.py" />
+    <Compile Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="command_modules\azure-cli-lbs\azure_bdist_wheel.py" />
+    <Compile Include="command_modules\azure-cli-lbs\setup.py" />
     <Compile Include="command_modules\azure-cli-monitor\azure\cli\command_modules\monitor\commands.py" />
     <Compile Include="command_modules\azure-cli-monitor\azure\cli\command_modules\monitor\operations\actions.py" />
     <Compile Include="command_modules\azure-cli-monitor\azure\cli\command_modules\monitor\operations\action_groups.py" />
@@ -836,6 +850,13 @@
     <Folder Include="command_modules\azure-cli-lab\azure\cli\command_modules\lab\" />
     <Folder Include="command_modules\azure-cli-lab\azure\cli\command_modules\lab\tests\" />
     <Folder Include="command_modules\azure-cli-lab\azure\cli\command_modules\lab\tests\latest\" />
+    <Folder Include="command_modules\azure-cli-lbs\" />
+    <Folder Include="command_modules\azure-cli-lbs\azure\" />
+    <Folder Include="command_modules\azure-cli-lbs\azure\cli\" />
+    <Folder Include="command_modules\azure-cli-lbs\azure\cli\command_modules\" />
+    <Folder Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\" />
+    <Folder Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\tests\" />
+    <Folder Include="command_modules\azure-cli-lbs\azure\cli\command_modules\lbs\tests\latest\" />
     <Folder Include="command_modules\azure-cli-monitor\" />
     <Folder Include="command_modules\azure-cli-monitor\azure\" />
     <Folder Include="command_modules\azure-cli-monitor\azure\cli\" />
@@ -1054,6 +1075,10 @@
     <Content Include="command_modules\azure-cli-lab\MANIFEST.in" />
     <Content Include="command_modules\azure-cli-lab\README.rst" />
     <Content Include="command_modules\azure-cli-lab\setup.cfg" />
+    <Content Include="command_modules\azure-cli-lbs\HISTORY.rst" />
+    <Content Include="command_modules\azure-cli-lbs\MANIFEST.in" />
+    <Content Include="command_modules\azure-cli-lbs\README.rst" />
+    <Content Include="command_modules\azure-cli-lbs\setup.cfg" />
     <Content Include="command_modules\azure-cli-monitor\azure\cli\command_modules\monitor\operations\autoscale-parameters-template.json" />
     <Content Include="command_modules\azure-cli-monitor\HISTORY.rst" />
     <Content Include="command_modules\azure-cli-monitor\MANIFEST.in" />
